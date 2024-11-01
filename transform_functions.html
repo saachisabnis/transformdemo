@@ -436,9 +436,9 @@ transform_data</code></pre>
 ## Ferrari Dino                    20.09062
 ## Maserati Bora                   20.09062
 ## Volvo 142E                      20.09062</code></pre>
-<pre class="r"><code>transform_data &lt;- transform_data %&gt;% 
+<pre class="r"><code>data_new &lt;- transform_data %&gt;% 
   mutate(data_sqr &lt;- hp^2)
-transform_data</code></pre>
+data_new</code></pre>
 <pre><code>##                      mpg cyl  disp  hp drat    wt  qsec vs am gear carb
 ## Mazda RX4           21.0   6 160.0 110 3.90 2.620 16.46  0  1    4    4
 ## Mazda RX4 Wag       21.0   6 160.0 110 3.90 2.875 17.02  0  1    4    4
