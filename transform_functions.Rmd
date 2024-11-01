@@ -17,3 +17,9 @@ transform_data
 
 ```
 
+```{r}
+transform_data <- transform_data %>% 
+  mutate(data_sqr <- hp^2)
+transform_data
+```
+
