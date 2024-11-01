@@ -1,0 +1,19 @@
+---
+title: "transform_functions"
+output: html_document
+date: "2024-11-01"
+---
+
+```{r}
+
+library(dplyr)
+# Calculate the mean of the `mpg` column in the `mtcars` dataset
+
+data("mtcars")
+transform_data <- mtcars %>% 
+  mutate(avg_mpg <- mean(mpg))
+transform_data
+
+
+```
+
